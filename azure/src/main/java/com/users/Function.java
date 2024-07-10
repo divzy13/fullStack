@@ -20,7 +20,7 @@ public class Function {
      * 1. curl -d "HTTP Body" {your host}/api/HttpExample
      * 2. curl "{your host}/api/HttpExample?name=HTTP%20Query"
      */
-    @FunctionName("get-all-users")
+    @FunctionName("get-all-users-test")
     public HttpResponseMessage run(
             @HttpTrigger(
                 name = "req",
